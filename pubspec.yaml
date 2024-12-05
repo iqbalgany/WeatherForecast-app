@@ -1,0 +1,39 @@
+name: weather_forecast
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  d_view: ^0.0.5
+  dartx: ^1.2.0
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  extended_image: ^8.2.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.5
+  get_it: ^7.7.0
+  google_fonts: ^6.2.1
+  grouped_list: ^5.1.2
+  http: ^1.2.1
+  intl: ^0.19.0
+  intl_phone_field2: ^3.3.4
+  path_provider: ^2.1.5
+  shared_preferences: ^2.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.6
+  mockito: ^5.4.4
+  bloc_test: ^9.1.7
+  mocktail: ^1.0.3
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
